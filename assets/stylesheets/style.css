@@ -1,11 +1,16 @@
 body {
-	font-family: 'Questrial', sans-serif;
-	font-size: 15px;
+	font-family: 'Brawler', serif;
+	font-size: 13px;
 }
 
-h1, #nav-header, #nav-footer {
+h1,  #nav-header, #nav-footer, #copyright, label {
 	text-transform: uppercase;
+	font-family: 'Questrial', sans-serif;
+}	
+h2 {
+	font-family: 'Questrial', sans-serif;
 }
+
 
 a {
 	text-decoration: none;
@@ -23,6 +28,7 @@ p {
 header {
 	text-align: center;
 }
+
 header h1 {
 	font-size: 55px;
 	padding-top: 60px;
@@ -67,14 +73,17 @@ header h2 {
 /*------Content Box-----------*/
 
 .first-section {
-	margin-top: 25px;
+	margin-top: 35px;
 }
 
-
-
+#portfolio-section h1{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
 .main-image {
 	width:100%;
 	height:auto;
+	margin-top:10px;
 }
 
 .sub-images {
@@ -84,11 +93,8 @@ header h2 {
 .sub-images {
   height: 125px;
   text-align: justify;
-  min-width: 700px;
   margin-top: 4px;
-
 }
-
 
 .sub-images img {
   width: 170px;
@@ -107,7 +113,6 @@ header h2 {
 #nav-footer {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
-	min-width:700px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-size: 17px;
@@ -154,12 +159,20 @@ header h2 {
 	margin-bottom:15px;
 }
 
+.p-italic {
+	font-family: 'Arapey', serif;
+	font-style: italic;
+	font-size:14px;
+	color: #444;
+}
+
 #about-image-main img:nth-of-type(2){
 	margin-top:-5px;
 	margin-bottom:15px;
 }
 
 /*---------contact.html-----------*/
+
 #form-div {
 	margin-bottom:50px;
 	margin-top:50px;
@@ -173,6 +186,7 @@ header h2 {
 	width: 100px;
 	text-transform: uppercase;
 	padding-top:5px;
+	font-size:14px;
 }
 
 .form-section input[type=text],
@@ -208,6 +222,7 @@ header h2 {
  .form-section input[type=submit]:focus{
  	background:#444;
  }
+
  #icon-images {
  	display:inline;
  	
@@ -232,6 +247,105 @@ header h2 {
  	width: auto;
  	
  }
+
+
+/*-------MEDIA QUERIES----------*/
+
+
+/*------Phone--------*/
+@media screen and (max-width : 480px) {
+
+	body {
+		width: 90%;
+		margin:auto;
+		font-size:11px;
+	}
+	header h1 {
+		font-size: 40px;
+		padding-top: 40px;
+	}
+	header h2 {
+		font-size: 18px;
+		padding-bottom: 30px;
+		margin-top:-2px;
+	}
+	 
+	#body-header nav {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	#body-header nav li {
+		margin: 0 8px;
+	}
+
+	#nav-footer {
+	font-size: 14px;
+	text-align: center;
+	}
+
+	.sub-images {
+		display:none;
+	}
+
+	.sub-images img {
+	  	width: 50;
+	  	height: auto;
+	  	display: inline-block;
+	}
+
+	#portfolio-section h1,
+	#portfolio-section p{
+		display:none;
+	}
+
+	.p-italic {
+	font-size:12px;
+	}
+	
+	#form-div {
+	margin-bottom:50px;
+	margin-top:50px;
+		margin-left:10%;
+	}
+
+	.span-label {
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+	width: 65px;
+	
+	}
+	
+	.form-section input[type=text],
+	.form-section input[type=email] {
+		width:60%;
+		height:90%;
+		margin-top:2px;
+		margin-bottom:2px;
+		font-family: 'Questrial', sans-serif;
+		font-size:14px;
+	}
+
+	.form-section input[name=textarea] {
+		width:60%;
+		height: 200px;
+
+	}
+
+	.form-section input[type=submit]{
+		margin-left:66%;
+		font-size:12px;
+	   
+	 } 
+}
+
+/*------Tablet--------*/
+
+@media screen and {max-width:  }
+
+
+
 
 
 
