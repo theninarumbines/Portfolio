@@ -53,28 +53,44 @@
     letter-spacing: 1px;
     color: #b0b0b0;
   }
+  /* line 53, responsive.scss */
+  header ul.nav-social {
+    margin-top: 60px;
+  }
+  /* line 56, responsive.scss */
+  header ul.nav-social li {
+    padding: 15px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
-  /* line 57, responsive.scss */
+  /* line 64, responsive.scss */
   .container {
     max-width: 95%;
   }
 
-  /* line 61, responsive.scss */
+  /* line 68, responsive.scss */
   header {
     margin-top: 270px;
   }
-  /* line 64, responsive.scss */
+  /* line 71, responsive.scss */
   header h1 {
     font-size: 60px;
     letter-spacing: 5px;
   }
-  /* line 68, responsive.scss */
+  /* line 75, responsive.scss */
   header h2 {
     margin-top: 10px;
     font-size: .9;
     font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 3px;
     color: #b0b0b0;
+  }
+  /* line 82, responsive.scss */
+  header ul.nav-social {
+    margin-top: 70px;
+  }
+  /* line 85, responsive.scss */
+  header ul.nav-social li {
+    padding: 15px;
   }
 }

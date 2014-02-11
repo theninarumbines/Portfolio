@@ -50,6 +50,13 @@
 			letter-spacing: 1px;
 			color: #b0b0b0;
 		}
+		ul.nav-social {
+			margin-top: 60px;
+
+			li {
+				padding: 15px;
+			}
+		}
     }
 }
 
@@ -71,6 +78,13 @@
 			font-family: $sec-font;
 			letter-spacing: 3px;
 			color: #b0b0b0;
+		}
+			ul.nav-social {
+			margin-top: 70px;
+
+			li {
+				padding: 15px;
+			}
 		}
     }
 }
