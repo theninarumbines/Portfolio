@@ -1,0 +1,55 @@
+@import "_variables";
+
+html, body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container {
+	max-width: 90%;
+	margin: 0px auto;
+}
+
+header {
+	text-align: center;
+	margin-top: 300px;
+
+		h1 {
+		font-family: $name-font;
+		font-size:75px;
+		text-transform: uppercase;
+		
+		letter-spacing: .2em;
+	}
+		h2 {
+			margin-top: 20px;
+			font-size: 1em;
+			font-family: $sec-font;
+			text-transform: uppercase;
+			letter-spacing: .3em;
+			color:#b6b6b6;
+		}
+
+	ul.nav-social {
+		margin-top: 100px;
+
+		a {
+			
+			text-decoration: none;
+
+		}
+
+		li {
+			padding: 20px;
+			display: inline;
+			text-indent: -9999px;
+
+
+			img {
+				width: 50px;
+				opacity: .74;
+			&:hover {
+				opacity: .4;
+				}
+			}
+		}
+	}
+}
