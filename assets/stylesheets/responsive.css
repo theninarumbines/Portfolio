@@ -1,0 +1,80 @@
+@media only screen and (max-width: 480px) {
+  /* line 5, responsive.scss */
+  .container {
+    max-width: 95%;
+  }
+
+  /* line 9, responsive.scss */
+  header {
+    margin-top: 170px;
+  }
+  /* line 12, responsive.scss */
+  header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  /* line 16, responsive.scss */
+  header h2 {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
+    color: #b1b1b1;
+  }
+  /* line 24, responsive.scss */
+  header ul.nav-social {
+    margin-top: 50px;
+  }
+  /* line 27, responsive.scss */
+  header ul.nav-social li {
+    padding: 15px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* line 35, responsive.scss */
+  .container {
+    max-width: 95%;
+  }
+
+  /* line 39, responsive.scss */
+  header {
+    margin-top: 270px;
+  }
+  /* line 42, responsive.scss */
+  header h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+  /* line 46, responsive.scss */
+  header h2 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
+    color: #b0b0b0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  /* line 57, responsive.scss */
+  .container {
+    max-width: 95%;
+  }
+
+  /* line 61, responsive.scss */
+  header {
+    margin-top: 270px;
+  }
+  /* line 64, responsive.scss */
+  header h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  /* line 68, responsive.scss */
+  header h2 {
+    margin-top: 10px;
+    font-size: .9;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 3px;
+    color: #b0b0b0;
+  }
+}
