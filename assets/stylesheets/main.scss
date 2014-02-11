@@ -1,5 +1,7 @@
-@import "_variables";
 
+@import '_variables';
+
+/*---------------*/
 html, body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -14,7 +16,7 @@ header {
 
 		h1 {
 		font-family: $name-font;
-		font-size:75px;
+		font-size: 75px;
 		text-transform: uppercase;
 		
 		letter-spacing: .2em;
@@ -53,3 +55,6 @@ header {
 		}
 	}
 }
+
+
+
