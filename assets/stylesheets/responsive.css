@@ -27,7 +27,7 @@
   }
   /* line 27, responsive.scss */
   header ul.nav-social li {
-    padding: 15px;
+    padding: 12px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -50,7 +50,7 @@
     margin-top: 10px;
     font-size: 14px;
     font-family: "Source Sans Pro", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #b0b0b0;
   }
   /* line 53, responsive.scss */
@@ -59,7 +59,7 @@
   }
   /* line 56, responsive.scss */
   header ul.nav-social li {
-    padding: 15px;
+    padding: 13px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
@@ -75,12 +75,12 @@
   /* line 71, responsive.scss */
   header h1 {
     font-size: 60px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
   }
   /* line 75, responsive.scss */
   header h2 {
     margin-top: 10px;
-    font-size: .9;
+    font-size: .85;
     font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 3px;
     color: #b0b0b0;
