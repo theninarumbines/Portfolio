@@ -94,3 +94,35 @@
     padding: 15px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  /* line 93, responsive.scss */
+  .container {
+    max-width: 95%;
+  }
+
+  /* line 97, responsive.scss */
+  header {
+    margin-top: 320px;
+  }
+  /* line 100, responsive.scss */
+  header h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+  /* line 104, responsive.scss */
+  header h2 {
+    margin-top: 10px;
+    font-size: .85;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 3px;
+    color: #b0b0b0;
+  }
+  /* line 111, responsive.scss */
+  header ul.nav-social {
+    margin-top: 70px;
+  }
+  /* line 114, responsive.scss */
+  header ul.nav-social li {
+    padding: 15px;
+  }
+}
